@@ -50,22 +50,90 @@ header {
 
 .intro {
     text-align: center;
+    height: 400px;
 }
 .intro h2 {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #639ce6;
+}
+.intro img {
+    float: left;
+    /* top: 200px;
+    left: 20px; */
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    position: left;
 }
 
 .intro p {
+    /* position: absolute;
+    top: 40px;
+    left: 60px; */
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
 }
-.intro p {
-  /* add this alongside your other declarations */
-  margin: 0 auto;
+.projects {
+    text-align: center;
+}
+.projects h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  text-align: center;
+
+}
+
+.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 250px;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+footer {
+    padding: 20px 35px;
+    background-image: repeating-linear-gradient(rgb(89, 157, 247), rgb(121, 177, 223) 10%, rgb(35, 138, 223) 20%);
+}
+footer h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: white;
+      margin: 0;
+      display: inline;
+}
+footer a {
+      text-decoration: none;
+      color:white;
+}
+footer nav {
+      float: right;
+      margin: 7px 0;
+}
+footer nav ul li {
+      display: inline;
+}
+footer nav ul li a {
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 22px;
+}
