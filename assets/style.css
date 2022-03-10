@@ -49,40 +49,44 @@ header {
   }
 
 .intro {
+    background-image: url("./Images/pexels-johannes-plenio-1103970.jpg");
     text-align: center;
     height: 400px;
 }
 .intro h2 {
   font-size: 55px;
-  color: #024e76;
+  color: #013450;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
 }
 .intro img {
-    float: left;
-    /* top: 200px;
-    left: 20px; */
+    
+    left: 20px;
     width: 200px;
+    float: left;
     height: auto;
     border-radius: 10px;
-    position: left;
 }
-
 .intro p {
-    /* position: absolute;
-    top: 40px;
-    left: 60px; */
   line-height: 1.7;
-  color: #39a6b2;
+  color: #024e76;
   width: 80%;
   font-size: 20px;
 }
+.intro li {
+    line-height: 1.7;
+    color: #024e76;
+    width: 80%;
+    font-size: 20px;
+  }
 .projects {
+    background-image: url("./Images/pexels-johannes-plenio-1103970.jpg");
     text-align: center;
+    height: 450px;
 }
 .projects h2 {
   font-size: 55px;
-  color: #024e76;
+  color: #013450;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
   text-align: center;
@@ -92,6 +96,7 @@ header {
 .gallery {
     margin: 10px;
     border: 1px solid #ccc;
+    display: inline;
     float: left;
     width: 200px;
     height: 250px;
@@ -107,6 +112,7 @@ header {
   }
   
 .desc {
+    color: #024e76
     padding: 15px;
     text-align: center;
   }
