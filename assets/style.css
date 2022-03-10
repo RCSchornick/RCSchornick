@@ -1,0 +1,71 @@
+/* apply styles to <header> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header {
+    padding: 20px 35px;
+    background-image: repeating-linear-gradient(rgb(89, 157, 247), rgb(121, 177, 223) 10%, rgb(35, 138, 223) 20%);
+  }
+  header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: white;
+      margin: 0;
+      display: inline;
+  }
+  header a {
+      text-decoration: none;
+      color:white;
+  }
+  header nav {
+      float: right;
+      margin: 7px 0;
+  }
+  header nav ul li {
+      display: inline;
+  }
+  header nav ul li a {
+      margin: 0 30px;
+      font-weight: lighter;
+      font-size: 22px;
+  }
+  .quote {
+    background-image: url("./Images/pexels-johannes-plenio-1103970.jpg");
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .quote h2 {
+    font-size: 25px;
+    text-align: center;
+    color: #02273b;
+    /* margin-bottom: 25px; */
+    padding: 0 100px 20px 100px;
+    /* border-bottom: 3px solid; */
+    /* border-color: #639ce6; */
+  }
+
+.intro {
+    text-align: center;
+}
+.intro h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  border-color: #639ce6;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+}
+.intro p {
+  /* add this alongside your other declarations */
+  margin: 0 auto;
